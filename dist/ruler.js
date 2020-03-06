@@ -60,7 +60,7 @@ ruler.prototype.builder = function(){
 
   var attachListeners = function (container, curRul) {
     var mousedown = function (e) {
-      constructGuide(curRul.dimension, e.clientX, e.clientY, e);
+     // constructGuide(curRul.dimension, e.clientX, e.clientY, e);
 
     };
 
